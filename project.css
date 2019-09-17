@@ -6,9 +6,7 @@ h1 {
     background: lightgrey;
     
 }
-ol {
-    border:2px;
-}
-table {
+tr {
     border: 2px;
+    color: lightblue lightcoral lightseagreen lightgreen
 }
