@@ -6,9 +6,15 @@ h1 {
     background: lightgrey;
     
 }
-ul {
+ul.a {
     display: inline-block;
     border: 2px solid #000;
     padding: 20px;
     border-color: lightblue lightcoral lightseagreen lightgreen
+}
+ul.b {
+    display: inline-block;
+    border: 2px solid #000;
+    padding: 20px;
+    border-color: lightblue lightcoral lightseagreen lightgreen  
 }
