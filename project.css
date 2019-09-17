@@ -6,7 +6,9 @@ h1 {
     background: lightgrey;
     
 }
-table, th, td{
-    border: 2px;
+ol {
+    display: inline-block;
+    border: 2px solid #000;
+    padding: 20px;
     color: lightblue lightcoral lightseagreen lightgreen
 }
