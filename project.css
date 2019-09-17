@@ -1,7 +1,11 @@
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: palevioletred
+    color: palevioletred;  
 }
 * {
-    background: blue;
+    background: lightgrey;
+    
+}
+ol {
+    border:2px;
 }
