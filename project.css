@@ -1,9 +1,9 @@
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: palevioletred;  
+    color: red;  
 }
 * {
-    background: rgba(66, 192, 66, 0.781);
+    background:green;
     
 }
 ul.a {
