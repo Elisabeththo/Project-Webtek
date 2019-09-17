@@ -10,5 +10,5 @@ ol {
     display: inline-block;
     border: 2px solid #000;
     padding: 20px;
-    color: lightblue lightcoral lightseagreen lightgreen
+    border-color: lightblue lightcoral lightseagreen lightgreen
 }
