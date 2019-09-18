@@ -19,12 +19,17 @@ p{
     border: 1px dashed;
     padding: 2px;
 }
-li{
-    color: maroon
+#a{
+    font-weight: bold;
+    border: none;
+}
+h4{
+    color: maroon;
+    font-size: 14px;
 }
 * {
     background: lightgrey;
     text-align: center;
     line-height: 150%;
-    align-items: center
+    align-items: center;
 }
