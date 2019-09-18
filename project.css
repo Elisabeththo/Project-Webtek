@@ -10,10 +10,10 @@ h2 {
 * {
     background:lightpink;
 p.b {
-    display: inline-block;
-    border: 2px dotted;
-    padding: 20px;
-    float: center;
+    margin: 1em 0em 1em 1em;
+    width: 50%;
+    border: 1px dashed;
+    float: right;
 }   
 ul.a {
     display: inline-block;
