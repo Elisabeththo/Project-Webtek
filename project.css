@@ -5,7 +5,8 @@ h1 {
 }
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px
+    font-size: 14px;
+    float: center;
 }
 p.b{
     margin: 1em 0em 1em 1em;
