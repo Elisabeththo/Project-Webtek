@@ -7,14 +7,14 @@ h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px
 }
-* {
-    background:lightpink;
-p.b {
+p.b{
     margin: 1em 0em 1em 1em;
     width: 50%;
     border: 1px dashed;
     float: right;
-}   
+}
+* {
+    background:lightpink;
 ul.a {
     display: inline-block;
     border: 2px solid #000;
