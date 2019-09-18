@@ -7,6 +7,10 @@ h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
     color: maroon;
+    margin: auto;
+    width: 50%;
+    max-width: 75ch;
+    min-width: 65ch;
 }
 img{
     width: 50%;
