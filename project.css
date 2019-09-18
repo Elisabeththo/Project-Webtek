@@ -28,7 +28,7 @@ p{
     width: 50%;
     max-width: 80ch;
     min-width: 70ch;
-    border: 1px dashed;
+    border: 1px solid;
     padding: 2px;
 }
 #a{
