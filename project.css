@@ -1,24 +1,24 @@
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:palevioletred;
-    font-size: 18px
+    color: maroon;
+    font-size: 24px
 }
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
-    float: center;
+    color: maroon;
 }
 h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
     max-width: 75ch;
     min-width: 65ch;
+    color: maroon;
 }
 p{
     margin: 1em 0em 1em 1em;
     width: 50%;
     border: 1px dashed;
-    float: center;
     padding: 2px;
 }
 ul.a {
@@ -28,4 +28,8 @@ ul.a {
     border-color: lightblue lightcoral lightseagreen lightgreen
 }
 * {
-    background:lightpink;
+    background: lightgrey;
+    text-align: center;
+    display: inline-block;
+    line-height: 150%;
+}
