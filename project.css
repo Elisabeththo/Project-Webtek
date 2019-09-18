@@ -9,14 +9,14 @@ h2 {
     color: maroon;
     margin: auto;
     width: 50%;
-    max-width: 75ch;
-    min-width: 65ch;
+    max-width: 80ch;
+    min-width: 70ch;
 }
 img{
     width: 50%;
     margin: auto;
-    max-width: 75ch;
-    min-width: 65ch;
+    max-width: 80ch;
+    min-width: 70ch;
 }
 h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -26,8 +26,8 @@ h3 {
 p{
     margin: auto;
     width: 50%;
-    max-width: 75ch;
-    min-width: 65ch;
+    max-width: 80ch;
+    min-width: 70ch;
     border: 1px dashed;
     padding: 2px;
 }
