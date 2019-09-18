@@ -1,7 +1,7 @@
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:palevioletred;
-    font-size: 18px
+    font-size: 24px
 }
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -29,3 +29,4 @@ ul.a {
 }
 * {
     background:lightpink;
+    position: center;
