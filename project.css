@@ -14,14 +14,17 @@ h3 {
     color: maroon;
 }
 p{
-    margin: 1em 0em 1em 1em;
+    margin: auto;
     width: 50%;
     border: 1px dashed;
     padding: 2px;
+}
+li{
+    color: maroon
 }
 * {
     background: lightgrey;
     text-align: center;
     line-height: 150%;
-    align-items: center;
+    align-items: center
 }
