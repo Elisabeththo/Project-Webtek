@@ -6,12 +6,14 @@ h1 {
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
+    color: maroon;
 }
 h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
     max-width: 75ch;
     min-width: 65ch;
+    color: maroon;
 }
 p{
     margin: 1em 0em 1em 1em;
@@ -27,7 +29,7 @@ ul.a {
 }
 * {
     background: lightgrey;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
+    display: inline-block;
     line-height: 150%;
 }
