@@ -11,6 +11,8 @@ h2 {
 img{
     width: 50%;
     margin: auto;
+    max-width: 75ch;
+    min-width: 65ch;
 }
 h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -20,6 +22,8 @@ h3 {
 p{
     margin: auto;
     width: 50%;
+    max-width: 75ch;
+    min-width: 65ch;
     border: 1px dashed;
     padding: 2px;
 }
