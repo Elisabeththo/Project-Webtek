@@ -1,2 +1,0 @@
-tester git
-tester git igjen 
