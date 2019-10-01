@@ -14,10 +14,8 @@ h2 {
     min-width: 70ch;
 }
 img{
-    width: 75%;
+    width: 100%;
     margin: auto;
-    max-width: 100ch;
-    min-width: 60ch;
 }
 h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
