@@ -1,7 +1,8 @@
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
+    color: black ;
     font-size: 25px;
+    font-display: bold;
 }
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -51,5 +52,12 @@ ul{
     max-width: 100ch;
     min-width: 70ch;
     padding: 2px;
+<<<<<<< HEAD
     list-style-position: inside;  
+=======
+    list-style-position: inside; 
+}
+li {
+    text-align:left;
+>>>>>>> 50470ccc0b97042ccfec24dab4cd7cd45556dc2c
 }
