@@ -40,7 +40,7 @@ h4{
     font-size: 14px;
 }
 * {
-    background-color: rgba(176, 174, 179, 0.842);
+    background-color: rgba(176, 174, 179, 0.6);
     text-align: center;
     line-height: 150%;
     align-items: center;
@@ -51,6 +51,5 @@ ul{
     max-width: 100ch;
     min-width: 70ch;
     padding: 2px;
-    list-style-position: inside;
-    
+    list-style-position: inside;  
 }
