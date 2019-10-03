@@ -17,6 +17,14 @@ img{
     width: 100%;
     margin: auto;
 }
+
+#mappe {
+    width: 250px;
+}
+#plan {
+    width: 75%;
+}
+
 h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
