@@ -132,4 +132,22 @@ h1{
     color: white;
     background-color: gray;
     font-size: 20px;
-} 
+}
+
+/*Barkart*/
+.karttekst{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+li{
+    font-weight: bold;
+    list-style-type: none;
+    text-align: center;
+}
+
+.klipp{
+    text-align: center;
+}
