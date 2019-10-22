@@ -10,6 +10,7 @@
 }
 h1{
     font-size: 30px;
+    text-align: center;
 }
 
 /*Styremedlemmer*/
@@ -39,4 +40,96 @@ h1{
     padding: 5px;
 }
 
-/*
+/*Skjemabekreftelse*/
+.innslag{
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,40%);
+}
+
+.tilbakeinfo{
+    font-weight: normal;
+}
+
+/*Tidligere arrangementer*/
+.tidlquiz{
+    position: relative;
+    border-style: solid;
+    border-width: 2px;
+    padding: 5px;
+    margin: 5px;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-radius: 15px;
+    background-color: gray;
+}
+
+.tidlnu{
+    position: relative;
+    border-style: solid;
+    border-width: 2px;
+    padding: 5px;
+    margin: 5px;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-radius: 15px;
+    background-color: gray;
+}
+
+.tidlvk{
+    position: relative;
+    border-style: solid;
+    border-width: 2px;
+    padding: 5px;
+    margin: 5px;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-radius: 15px;
+    background-color: gray;
+}
+
+.tidlbørs{
+    position: relative;
+    border-style: solid;
+    border-width: 2px;
+    padding: 5px;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-radius: 15px;
+    background-color: gray;
+}
+
+.tidlbild{
+    height: 6cm;
+    width: 10cm;
+    border-radius: 15px;
+    padding: 5px gray;
+}
+
+.hovererbart:hover{
+    opacity: 0.8;
+    margin-left: 50px; /*Bruker 50px for å definere avstanden ut til enden når man holder musa over */
+    margin-right: 50px;
+    transition: 0.5s;
+}
+
+.tidlfarge{
+    position: absolute;
+    top: 15px;
+    left: 60%;
+    color: white;
+    background-color: gray;
+    font-size: 15px;
+}
+
+.tidlfarge1{
+    position: absolute;
+    top: 45px;
+    left: 60%;
+    color: white;
+    background-color: gray;
+    font-size: 20px;
+} 
