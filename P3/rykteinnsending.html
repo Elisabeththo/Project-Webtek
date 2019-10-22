@@ -8,17 +8,17 @@
 </head>
 <body>
     <h2>Fått med deg noe gøy? Send inn her! </h2>
-    <form action="skjemabekreftelse.html">
-        Ønsker du å være anonym? <br>
-        <select name="anonym">
-            <option value="yes">Ja</option><br>
-            <option value="no">Nei</option>
-        </select><br>
-        Hvis nei, navn: <br>
+    <form name="rykteskjema" action="skjemabekreftelse.html" onsubmit="return validateForm()"  method="post">
+        Ønsker du å avsløre din identitet? <br>
+        <input type="checkbox" id="trigger"  onclick="myFunction()" name="identitet" value="Ja" > Ja <br>
+        <section id="navn" style="display:none">
+        Hva er navnet ditt?: <br>
         <input type="text" name="navn"><br>
+    </section>
         Hva skjedde? <br>
-        <textarea rows="4" cols="50" name="rykte">Skriv inn her...</textarea><br>
+        <textarea rows="4" cols="50" name="rykte"></textarea><br>
         <input type="submit">
     </form>
+    <script src="./skjemavalidering.js"></script>
 </body>
 </html>
