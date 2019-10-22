@@ -6,17 +6,87 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tøhnna</title>
     <!--Her skal css filene-->
+    <style>
+    .slideshow{
+        max-width: 2000px;
+        position: relative;
+        margin: auto;
+    }
+    
+    .våre_slides{
+        overflow: hidden;
+        height: 600px;
+        width: 100%;
+        display: flex;
+        animation-name: fade;
+        animation-duration: 2s;
+    }
+
+    .fade{
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+    }
+
+    @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+    }
+
+    .text{
+        font-size: 100px;
+        position: absolute;
+        text-align: center;
+        color: red;
+        bottom: 15px;
+        margin-left: 20px;
+        font-weight: 400;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    
+    </style>
     <link rel="stylesheet" type="text/css" href="P3.css">
 </head>
 <body>
-    
-    
+    <div class="slideshow">    
+        <div class="våre_slides fade">
+            <img src="./img/Tøhnna_wide.jpg" style="width:100%">
 
+        </div>    
+    
+        <div class="våre_slides fade">
+                <img src="./img/NU-kickoff.jpeg" style="width:100%">
+        </div>
+
+        <div class="våre_slides fade">
+                <img src="./img/utvalgsfest.jpg" style="width:100%">
+        </div>
+
+
+        <div class="våre_slides fade">
+                <img src="./img/styre_børsfest.jpg" style="width:100%">
+        </div>
+
+        <div class="våre_slides fade">
+                <img src="./img/børsfest_did&børr.jpg" style="width:100%">
+        </div>
+
+        <div class="text">TØHNNA</div>
+
+    </div>
 
 
     <!--Legg footer her-->
     <!--Legg jacascriptene her-->
-    <script src="x"></script>
-    <script src="x"></script>
+
+<script src="slideshow.js"></script>
+   
 </body>
 </html>
