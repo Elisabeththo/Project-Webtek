@@ -151,3 +151,19 @@ li{
 .klipp{
     text-align: center;
 }
+
+.bildebartender{
+    height: 340px;
+    width: 450px;
+    left: 1%;
+    top: 25%;
+    position: fixed;
+}
+
+.bildedrink{
+    height: 340px;
+    width: 450px;
+    right: 1%;
+    top: 25%;
+    position: fixed;
+}
