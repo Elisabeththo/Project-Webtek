@@ -6,64 +6,87 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tøhnna</title>
     <!--Her skal css filene-->
+    <style>
+    .slideshow{
+        max-width: 2000px;
+        position: relative;
+        margin: auto;
+    }
+    
+    .våre_slides{
+        overflow: hidden;
+        height: 600px;
+        width: 100%;
+        display: flex;
+        animation-name: fade;
+        animation-duration: 2s;
+    }
+
+    .fade{
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+    }
+
+    @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+    }
+
+    .text{
+        font-size: 100px;
+        position: absolute;
+        text-align: center;
+        color: red;
+        bottom: 15px;
+        margin-left: 20px;
+        font-weight: 400;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    
+    </style>
     <link rel="stylesheet" type="text/css" href="P3.css">
 </head>
 <body>
-<<<<<<< HEAD
-    <div class="slideshow">
-        <div class="våre slides">
-            <img src="./img/Børsfest.jpeg" style="width:100%">
-            <div class="text">Børsfest</div>
-        </div>
-=======
-    
-    
->>>>>>> dfec3544a534ad80702c3a50df56ceaa4599568c
+    <div class="slideshow">    
+        <div class="våre_slides fade">
+            <img src="./img/Tøhnna_wide.jpg" style="width:100%">
 
-        <div class="våre slides">
-                <img src="./img/Dharan.jpeg" style="width:100%">
-                <div class="text">Dharan</div>
         </div>    
-
-        <div class="våre slides">
+    
+        <div class="våre_slides fade">
                 <img src="./img/NU-kickoff.jpeg" style="width:100%">
-                <div class="text">NU-kickoff</div>
         </div>
 
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
-    <br>
+        <div class="våre_slides fade">
+                <img src="./img/utvalgsfest.jpg" style="width:100%">
+        </div>
 
-    <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
+
+        <div class="våre_slides fade">
+                <img src="./img/styre_børsfest.jpg" style="width:100%">
+        </div>
+
+        <div class="våre_slides fade">
+                <img src="./img/børsfest_did&børr.jpg" style="width:100%">
+        </div>
+
+        <div class="text">TØHNNA</div>
+
     </div>
 
 
     <!--Legg footer her-->
     <!--Legg jacascriptene her-->
 
-<script>
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("våre slides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 5000); // Change image every 5 seconds
-}
-
-</script>
+<script src="slideshow.js"></script>
    
-
-    <script src="x"></script>
 </body>
 </html>
