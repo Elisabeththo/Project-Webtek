@@ -1,0 +1,42 @@
+/*Generell*/
+*{
+    background-color: lightgrey;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: black;
+    border-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    font-size: 30px;
+}
+
+/*Styremedlemmer*/
+.styremedlemmer{
+    display: flex;
+    justify-content: space-between;
+    float: left;
+}
+.row1{
+    content: "";
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    clear: both;
+}
+.row2{
+    content: "";
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    clear: both;
+}
+
+.styrebilder{
+    width: 265px;
+    height: 340px;
+    padding: 5px;
+}
+
+/*
