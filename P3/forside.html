@@ -9,13 +9,56 @@
     <link rel="x" type="x" href="x">
 </head>
 <body>
-    
+    <div class="slideshow">
+        <div class="våre slides">
+            <img src="./img/Børsfest.jpeg" style="width:100%">
+            <div class="text">Børsfest</div>
+        </div>
 
+        <div class="våre slides">
+                <img src="./img/Dharan.jpeg" style="width:100%">
+                <div class="text">Dharan</div>
+        </div>    
+
+        <div class="våre slides">
+                <img src="./img/NU-kickoff.jpeg" style="width:100%">
+                <div class="text">NU-kickoff</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
 
 
     <!--Legg footer her-->
     <!--Legg jacascriptene her-->
-    <script src="x"></script>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("våre slides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+
+</script>
+   
+
     <script src="x"></script>
 </body>
 </html>
