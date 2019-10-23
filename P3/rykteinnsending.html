@@ -10,15 +10,20 @@
 <body>
     <h2>Fått med deg noe gøy? Del med dine medelever så alle kan få seg en latter! </h2>
     <form name="rykteskjema" action="skjemabekreftelse.html" onsubmit="return validateForm()"  method="post">
-        Ønsker du å avsløre din identitet? <br>
+    <label> Ønsker du å avsløre din identitet? </label>
         <input type="checkbox" id="trigger"  onclick="myFunction()" name="identitet" value="Ja" > Ja <br>
-        <section id="navn" style="display:none">
-        Hva er navnet ditt?: <br>
+    <section id="navn" style="display:none">
+        <label> Hva er navnet ditt?: </label>
         <input type="text" name="navn"><br>
     </section>
-        Hva skjedde? <br>
+    <section>
+        <label> Hva skjedde? </label>
+        <br>
         <textarea rows="4" cols="50" name="rykte"></textarea><br>
+    </section>
+    <section>
         <input type="submit">
+    </section>
     </form>
     <script src="./skjemavalidering.js"></script>
 </body>
