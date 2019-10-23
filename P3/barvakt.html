@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Barvakt</title>
     <link rel="stylesheet" type="text/css" href="menu.css">
+    <link rel="stylesheet" type="text/css" href="P3.css">
 </head>
 <body>
     <div id="hovedmeny"> 
@@ -23,13 +24,15 @@
             E-post <br>
             <input type="email" name="epost" required><br>
             Vakttype <br>
-            <input type="radio" name="barvakt" required>Barvakt<br>
-            <input type="radio" name="edruvakt" required>Edruvakt<br>
+            <input type="radio" name="vakt" required>Barvakt<br>
+            <input type="radio" name="vakt" required>Edruvakt<br>
             Arrangement <br>
-            <select name="Arrangementer" >
+            <select name="Arrangementer" class="arrangementer" required>
                 <option value="julebord">HSK julebord</option>
                 <option value="kick-off">NU kick-off</option>
                 <option value="cavas">Cavasøndag</option>
+            <br>
+            <input type="submit" value="Send inn">
             </select>
         </form>
     </section>
@@ -45,7 +48,7 @@
         </ul>
     </section>
     <section>
-        <img src="./img/tøhnnakort.png">
+        <img id="tøhnnakort" src="./img/tøhnnakort.png">
     </section>
     <script src="./modularitet/meny.js"> </script>
 </body>

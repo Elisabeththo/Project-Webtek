@@ -167,3 +167,146 @@ li{
     top: 25%;
     position: fixed;
 }
+
+/*Ryktebørs*/
+
+
+
+.rykte_jostein{
+    font-size: 25px;
+    position: absolute;
+    left: 10%;
+    top:10%;
+    transform: translate(-10%,10%);
+}
+
+.rykte_henrik{
+    font-size: 25px;
+    position: absolute;
+    left: 50%;
+    top:40%;
+    transform: translate(-50%,40%);
+}
+
+.rykte_didrik{
+    font-size: 25px;
+    position: absolute;
+    left:80%;
+    top:10%;
+    transform: translate(-80%,10%);
+}
+
+.rykte_stina{
+    font-size: 25px;
+    position: absolute;
+    right:60%;
+    bottom:10%;
+    transform: translate(-60%,10%);
+}
+
+.rykte_elisabeth{
+    font-size: 25px;
+    position: absolute;
+    left:85%;
+    bottom:65%;
+    transform: translate(-85%,65%);
+}
+
+.rykte_lina{
+    font-size: 25px;
+    position: absolute;
+    left:85%;
+    bottom:40%;
+    transform: translate(-85%,40%);
+}
+
+.rykte_nils{
+    font-size: 25px;
+    position: absolute;
+    left:80%;
+    bottom:10%;
+    transform: translate(-80%,10%);
+}
+
+.rykte_leder{
+    font-size: 25px;
+    position: absolute;
+    left: 10%;
+    bottom:30%;
+    transform: translate(-10%,30%);
+}
+
+.rykte_innsender{
+    font-style: italic;
+    font-size: 13px;
+}
+
+/* Barvakt */
+
+#skjema{
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+    margin: 5px;
+    margin-right: 70%;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+input[type=text], [type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+    outline: none;
+    background-color: white;
+}
+
+input[type=radio]{
+    width: 20px;
+    padding: 12px 35px;
+    margin: 8px 0;
+}
+
+.arrangementer{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+    outline: none;
+    background-color: white;
+}
+
+input[type=submit]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    background-color: white;
+    border: 2px solid black;
+}
+
+#fordeler{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 70%;
+    position: absolute;
+    right: 0;
+    bottom:65%;
+    transform: translate(-0%,65%);
+    font-weight: normal;
+}
+
+#tøhnnakort{
+    max-width: 10cm; /*endret størrelse her*/
+    max-height: 7cm; /*og størrelse her*/
+    position: absolute;
+    right: 27%;
+    bottom: 45%;
+    transform: translate(-27%,45%)
+}
