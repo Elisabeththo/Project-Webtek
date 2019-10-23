@@ -54,8 +54,8 @@ h1{
     font-weight: normal;
 }
 
-/*Tidligere arrangementer*/
-.tidlquiz{
+/*Tidligere og kommende arrangementer*/
+.arr{
     position: relative;
     border-style: solid;
     border-width: 2px;
@@ -64,43 +64,10 @@ h1{
     margin-right: 100px;
     margin-left: 100px;
     border-radius: 15px;
-    background-color: gray;
+    background-color: #ec3a37;
+    box-shadow: 10px 2px 8px gray;
 }
 
-.tidlnu{
-    position: relative;
-    border-style: solid;
-    border-width: 2px;
-    padding: 5px;
-    margin: 5px;
-    margin-right: 100px;
-    margin-left: 100px;
-    border-radius: 15px;
-    background-color: gray;
-}
-
-.tidlvk{
-    position: relative;
-    border-style: solid;
-    border-width: 2px;
-    padding: 5px;
-    margin: 5px;
-    margin-right: 100px;
-    margin-left: 100px;
-    border-radius: 15px;
-    background-color: gray;
-}
-
-.tidlbørs{
-    position: relative;
-    border-style: solid;
-    border-width: 2px;
-    padding: 5px;
-    margin-right: 100px;
-    margin-left: 100px;
-    border-radius: 15px;
-    background-color: gray;
-}
 
 .tidlbild{
     height: 6cm;
@@ -109,7 +76,7 @@ h1{
     padding: 5px gray;
 }
 
-.hovererbart:hover{
+.arr:hover{
     opacity: 0.8;
     margin-left: 50px; /*Bruker 50px for å definere avstanden ut til enden når man holder musa over */
     margin-right: 50px;
@@ -121,7 +88,7 @@ h1{
     top: 15px;
     left: 60%;
     color: white;
-    background-color: gray;
+    background-color: #ec3a37;
     font-size: 15px;
 }
 
@@ -130,8 +97,19 @@ h1{
     top: 45px;
     left: 60%;
     color: white;
-    background-color: gray;
+    background-color: #ec3a37;
+    font-size: 30px;
+}
+
+.tidlfarge2{
+    position: absolute;
+    top: 125px;
+    left: 60%;
+    background-color:lightgray;
     font-size: 20px;
+    padding: 5px;
+    margin: 4px 2px;
+    box-shadow: 1px 2px 8px darkgray;
 }
 
 /*Barkart*/
@@ -142,7 +120,7 @@ h1{
 }
 
 
-li{
+.karttekst li{
     font-weight: bold;
     list-style-type: none;
     text-align: center;
@@ -158,6 +136,8 @@ li{
     left: 1%;
     top: 25%;
     position: fixed;
+    border-radius: 15px;
+    box-shadow: 10px 2px 8px gray;
 }
 
 .bildedrink{
@@ -166,6 +146,8 @@ li{
     right: 1%;
     top: 25%;
     position: fixed;
+    border-radius: 15px;
+    box-shadow: 10px 2px 8px gray;
 }
 
 /*Ryktebørs*/
@@ -210,6 +192,7 @@ li{
     left:85%;
     bottom:65%;
     transform: translate(-85%,65%);
+    transform: rotate(315deg);
 }
 
 .rykte_lina{
@@ -251,6 +234,9 @@ li{
     margin-right: 70%;
     margin-left: 10px;
     border-radius: 15px;
+    position: relative;
+    background-color: #ec3a37;
+    box-shadow: 10px 2px 8px gray;
 }
 input[type=text], [type=email]{
     width: 100%;
@@ -289,6 +275,7 @@ input[type=submit]{
 }
 
 #fordeler{
+    background-color: #ec3a37;
     border-style: solid;
     border-width: 2px;
     border-radius: 15px;
@@ -296,17 +283,24 @@ input[type=submit]{
     margin-right: 10px;
     margin-left: 70%;
     position: absolute;
-    right: 0;
-    bottom:65%;
-    transform: translate(-0%,65%);
+    right: -240%;
+    top: 0;
     font-weight: normal;
+    line-height: 330%;
+    box-shadow: 10px 2px 8px gray;
 }
 
 #tøhnnakort{
     max-width: 10cm; /*endret størrelse her*/
     max-height: 7cm; /*og størrelse her*/
     position: absolute;
-    right: 27%;
-    bottom: 45%;
-    transform: translate(-27%,45%)
+    right: -105%;
+    top: 25%;
+    transform: rotate(315deg);
+    opacity: 1;
+}
+
+.vaktfarge{
+    background-color: #ec3a37;
+    color: white;
 }
