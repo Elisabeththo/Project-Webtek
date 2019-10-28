@@ -8,23 +8,26 @@
     <link rel="stylesheet" type="text/css" href="P3.css">
 </head>
 <body>
-    <h2>Fått med deg noe gøy? Del med dine medelever så alle kan få seg en latter! </h2>
-    <form name="rykteskjema" action="skjemabekreftelse.html" onsubmit="return validateForm()"  method="post">
-    <label> Ønsker du å avsløre din identitet? </label>
+    <h1>Rykteinnsending</h1>
+    <div class="innsending">
+    <h2 class="rykteinns1">Fått med deg noe gøy? Del med dine medelever så alle kan få seg en latter! </h2>
+    <form class="rykteinns1" name="rykteskjema" action="skjemabekreftelse.html" onsubmit="return validateForm()"  method="post">
+    <label class="rykteinns1"> Ønsker du å avsløre din identitet? </label>
         <input type="checkbox" id="trigger"  onclick="myFunction()" name="identitet" value="Ja" > Ja <br>
-    <section id="navn" style="display:none">
-        <label> Hva er navnet ditt?: </label>
+    <section class="rykteinns1" id="navn" style="display:none">
+        <label class="rykteinns1"> Hva er navnet ditt?: </label>
         <input type="text" name="navn"><br>
     </section>
-    <section>
-        <label> Hva skjedde? </label>
+    <section class="rykteinns1">
+        <label class="rykteinns1"> Hva skjedde? </label>
         <br>
         <textarea rows="4" cols="50" name="rykte"></textarea><br>
     </section>
-    <section>
+    <section class="ryktknapp">
         <input type="submit">
     </section>
     </form>
+    </div>
     <script src="./skjemavalidering.js"></script>
 </body>
 </html>

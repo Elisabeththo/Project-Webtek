@@ -304,3 +304,30 @@ input[type=submit]{
     background-color: #ec3a37;
     color: white;
 }
+
+/*Rykteinnsending*/
+.innsending{
+    font-size: 25px;
+    line-height: 330%;
+    width: 37.5%;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #ec3a37;
+    box-shadow: 10px 2px 8px gray;
+}
+
+.rykteinns1{
+    background-color: #ec3a37;
+}
+
+.ryktknapp{
+    background-color: #ec3a37;
+}
+
+.ryktknapp:hover{
+    margin-left: 50px;
+    margin-right: 50px;
+    transition: 50s;
+}
