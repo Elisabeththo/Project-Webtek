@@ -1,3 +1,7 @@
-document.getElementsByClassName("tohnnasfooter").innerHTML = "Adresse: Klæbuveien 72, 7030 Trondheim"
-document.getElementsByClassName("tohnnasfooter").innerHTML = "Email: tohnna.stoh@gmail.com"
-document.getElementsByClassName("tohnnasfooter").innerHTML = "Tlf: 920 28 440"
+function myFunction() {
+   var y = document.createElement("P"); 
+    var t = document.createTextNode("Adresse: Klæbuveien");
+    y.appendChild(t);
+
+    document.getElementById("tohnnasfooter").appendChild(y);
+}
