@@ -33,11 +33,12 @@ h1{
     flex-wrap: wrap;
     clear: both;
 }
-
 .styrebilder{
     width: 265px;
     height: 340px;
     padding: 5px;
+    border-radius: 15px;
+    box-shadow: 10px 2px 8px gray;
 }
 
 /*Skjemabekreftelse*/
@@ -54,8 +55,8 @@ h1{
     font-weight: normal;
 }
 
-/*Tidligere arrangementer*/
-.tidlquiz{
+/*Tidligere og kommende arrangementer*/
+.arr{
     position: relative;
     border-style: solid;
     border-width: 2px;
@@ -64,43 +65,10 @@ h1{
     margin-right: 100px;
     margin-left: 100px;
     border-radius: 15px;
-    background-color: gray;
+    background-color: #ec3a37;
+    box-shadow: 10px 2px 8px gray;
 }
 
-.tidlnu{
-    position: relative;
-    border-style: solid;
-    border-width: 2px;
-    padding: 5px;
-    margin: 5px;
-    margin-right: 100px;
-    margin-left: 100px;
-    border-radius: 15px;
-    background-color: gray;
-}
-
-.tidlvk{
-    position: relative;
-    border-style: solid;
-    border-width: 2px;
-    padding: 5px;
-    margin: 5px;
-    margin-right: 100px;
-    margin-left: 100px;
-    border-radius: 15px;
-    background-color: gray;
-}
-
-.tidlbørs{
-    position: relative;
-    border-style: solid;
-    border-width: 2px;
-    padding: 5px;
-    margin-right: 100px;
-    margin-left: 100px;
-    border-radius: 15px;
-    background-color: gray;
-}
 
 .tidlbild{
     height: 6cm;
@@ -109,7 +77,7 @@ h1{
     padding: 5px gray;
 }
 
-.hovererbart:hover{
+.arr:hover{
     opacity: 0.8;
     margin-left: 50px; /*Bruker 50px for å definere avstanden ut til enden når man holder musa over */
     margin-right: 50px;
@@ -121,7 +89,7 @@ h1{
     top: 15px;
     left: 60%;
     color: white;
-    background-color: gray;
+    background-color: #ec3a37;
     font-size: 15px;
 }
 
@@ -130,8 +98,28 @@ h1{
     top: 45px;
     left: 60%;
     color: white;
-    background-color: gray;
+    background-color: #ec3a37;
+    font-size: 30px;
+}
+
+.tidlfarge2{
+    position: absolute;
+    top: 125px;
+    left: 60%;
+    background-color:lightgray;
     font-size: 20px;
+    padding: 5px;
+    margin: 4px 2px;
+    box-shadow: 1px 2px 8px darkgray;
+}
+
+.tidlfarge3{
+    position: absolute;
+    top: 125px;
+    left: 60%;
+    color: white;
+    background-color: #ec3a37;
+    font-size: 15px;
 }
 
 /*Barkart*/
@@ -142,7 +130,7 @@ h1{
 }
 
 
-li{
+.karttekst li{
     font-weight: bold;
     list-style-type: none;
     text-align: center;
@@ -158,6 +146,8 @@ li{
     left: 1%;
     top: 25%;
     position: fixed;
+    border-radius: 15px;
+    box-shadow: 10px 2px 8px gray;
 }
 
 .bildedrink{
@@ -166,6 +156,8 @@ li{
     right: 1%;
     top: 25%;
     position: fixed;
+    border-radius: 15px;
+    box-shadow: 10px 2px 8px gray;
 }
 
 /*Ryktebørs*/
@@ -176,24 +168,43 @@ li{
     font-size: 25px;
     position: absolute;
     left: 10%;
-    top:10%;
+    top:20%;
     transform: translate(-10%,10%);
+    transform: rotate(45deg);
+    text-shadow: 5px 2px 8px gray;
 }
+
+.rykte_jostein:hover{
+    transform: scale(1.5);
+}
+
 
 .rykte_henrik{
     font-size: 25px;
     position: absolute;
     left: 50%;
-    top:40%;
+    top:60%;
     transform: translate(-50%,40%);
+    transform: rotate(320deg);
+    text-shadow: 5px 2px 8px gray;
+}
+
+.rykte_henrik:hover{
+    transform: scale(1.5);
 }
 
 .rykte_didrik{
     font-size: 25px;
     position: absolute;
     left:80%;
-    top:10%;
+    top:20%;
     transform: translate(-80%,10%);
+    transform: rotate(330deg);
+    text-shadow: 5px 2px 8px gray;
+}
+
+.rykte_didrik:hover{
+    transform: scale(1.5);
 }
 
 .rykte_stina{
@@ -202,38 +213,54 @@ li{
     right:60%;
     bottom:10%;
     transform: translate(-60%,10%);
+    transform: rotate(25deg);
+    text-shadow: 5px 2px 8px gray;
+}
+
+.rykte_stina:hover{
+    transform: scale(1.5);
 }
 
 .rykte_elisabeth{
     font-size: 25px;
     position: absolute;
-    left:85%;
-    bottom:65%;
+    left:50%;
+    top: 20%;
     transform: translate(-85%,65%);
+    transform: rotate(345deg);
+    text-shadow: 5px 2px 8px gray;
 }
 
-.rykte_lina{
-    font-size: 25px;
-    position: absolute;
-    left:85%;
-    bottom:40%;
-    transform: translate(-85%,40%);
+.rykte_elisabeth:hover{
+    transform: scale(1.5);
 }
 
 .rykte_nils{
     font-size: 25px;
     position: absolute;
-    left:80%;
+    left:70%;
     bottom:10%;
     transform: translate(-80%,10%);
+    transform: rotate(20deg);
+    text-shadow: 5px 2px 8px gray;
+}
+
+.rykte_nils:hover{
+    transform: scale(1.5);
 }
 
 .rykte_leder{
     font-size: 25px;
     position: absolute;
     left: 10%;
-    bottom:30%;
+    bottom:35%;
     transform: translate(-10%,30%);
+    transform: rotate(350deg);
+    text-shadow: 5px 2px 8px gray;
+}
+
+.rykte_leder:hover{
+    transform: scale(1.5);
 }
 
 .rykte_innsender{
@@ -251,6 +278,9 @@ li{
     margin-right: 70%;
     margin-left: 10px;
     border-radius: 15px;
+    position: relative;
+    background-color: #ec3a37;
+    box-shadow: 10px 2px 8px gray;
 }
 input[type=text], [type=email]{
     width: 100%;
@@ -289,6 +319,7 @@ input[type=submit]{
 }
 
 #fordeler{
+    background-color: #ec3a37;
     border-style: solid;
     border-width: 2px;
     border-radius: 15px;
@@ -296,17 +327,91 @@ input[type=submit]{
     margin-right: 10px;
     margin-left: 70%;
     position: absolute;
-    right: 0;
-    bottom:65%;
-    transform: translate(-0%,65%);
+    right: -240%;
+    top: 0;
     font-weight: normal;
+    line-height: 330%;
+    box-shadow: 10px 2px 8px gray;
 }
 
 #tøhnnakort{
     max-width: 10cm; /*endret størrelse her*/
     max-height: 7cm; /*og størrelse her*/
     position: absolute;
-    right: 27%;
-    bottom: 45%;
-    transform: translate(-27%,45%)
+    right: -105%;
+    top: 25%;
+    transform: rotate(315deg);
+    opacity: 1;
+}
+
+.vaktfarge{
+    background-color: #ec3a37;
+    color: white;
+}
+
+/*Rykteinnsending*/
+.innsending{
+    font-size: 25px;
+    line-height: 275%;
+    width: 37.5%;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #ec3a37;
+    box-shadow: 10px 2px 8px gray;
+}
+
+.textarea{
+    background-color: white;
+}
+
+.rykteinns1{
+    background-color: #ec3a37;
+}
+
+.ryktknapp{
+    background-color: #ec3a37;
+}
+
+/*Generell info*/
+.generell{
+    background-color: #ec3a37;
+    width: 30.4%;
+    border: 3px solid;
+    border-radius: 15px;
+    padding: 5px;
+    overflow: auto;
+    float: left;
+    margin: 5px;
+    box-shadow: 10px 2px 8px gray;
+}
+
+.generell:hover{
+    opacity: 0.8;
+    margin-left: 25px; /*Bruker 50px for å definere avstanden ut til enden når man holder musa over */
+    margin-right: 25px;
+    transition: 0.5s;
+}
+
+.infobilder{
+    background-color: #ec3a37;
+    height: 400px;
+    width: 420px;
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+
+.infotekst{
+    background-color: #ec3a37;
+    margin-left: 10px;
+}
+
+.overskrift{
+    background-color: #ec3a37;
+    font-size: 18px;
+    text-align: center;
 }

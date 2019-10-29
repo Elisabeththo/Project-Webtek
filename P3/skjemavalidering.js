@@ -14,8 +14,9 @@ function myFunction() {
 function validateForm() {
   var name = document.forms["rykteskjema"]["navn"];
   var rykte = document.forms["rykteskjema"]["rykte"];
+  var checkBox = document.getElementById("trigger");
 
-  if (name.value ==""){
+  if (checkBox.checked && name.value ==""){
     window.alert("Vennsligst skriv inn ditt navn.");
     name.focus();
     return false;  

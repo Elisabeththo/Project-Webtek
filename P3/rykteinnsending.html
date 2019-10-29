@@ -5,20 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Rykteinnsending</title>
+    <link rel="stylesheet" type="text/css" href="P3.css">
 </head>
 <body>
-    <h2>Fått med deg noe gøy? Send inn her! </h2>
-    <form name="rykteskjema" action="skjemabekreftelse.html" onsubmit="return validateForm()"  method="post">
-        Ønsker du å avsløre din identitet? <br>
+    <h1>Rykteinnsending</h1>
+    <div class="innsending">
+    <h2 class="rykteinns1">Fått med deg noe gøy? Del med dine medelever så alle kan få seg en latter! </h2>
+    <form class="rykteinns1" name="rykteskjema" action="skjemabekreftelse.html" onsubmit="return validateForm()"  method="post">
+    <label class="rykteinns1"> Ønsker du å avsløre din identitet? </label>
         <input type="checkbox" id="trigger"  onclick="myFunction()" name="identitet" value="Ja" > Ja <br>
-        <section id="navn" style="display:none">
-        Hva er navnet ditt?: <br>
+    <section class="rykteinns1" id="navn" style="display:none">
+        <label class="rykteinns1"> Hva er navnet ditt?: </label>
         <input type="text" name="navn"><br>
     </section>
-        Hva skjedde? <br>
-        <textarea rows="4" cols="50" name="rykte"></textarea><br>
+    <section class="rykteinns1">
+        <label class="rykteinns1"> Hva skjedde? </label><br>
+            <textarea class="textarea" rows="4" cols="50" name="rykte"></textarea><br>
+    </section>
+    <section class="rykteinns1">
+            <label class="rykteinns1"> Hvilket arrangement? </label>
+                <select name="Tidligere Arrangementer" class="arrangementer" required>
+                    <option value="tøhnna-quiz">Tøhnna-quiz</option>
+                    <option value="nu-kickoff">NU-kickoff</option>
+                    <option value="vk-kickoff">VK-kickoff</option>
+                    <option value="børsfest"> Børsfest</option>
+    </section>
+    <section class="ryktknapp">
         <input type="submit">
+    </section>
     </form>
+    </div>
     <script src="./skjemavalidering.js"></script>
 </body>
 </html>
