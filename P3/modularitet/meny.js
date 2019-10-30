@@ -6,7 +6,7 @@
 //og meny[i][1] til meny[i][j] er dropdown menyer som kan vises under øverste nivå. 
 const meny = [["Om tøhnna", "Om styret", "Generell info"], ["Barvakter"], ["Arrangementer","Kommende arrangementer","Tidligere arrangementer"], ["Ryktebørsen","Rykteinnsending"]];
 //Liste over hva de forskjellige "meny-items" skal linke til. meny[i][j] koresponderer til sider[i][j]. ingen betyr at det ikke skal være en link
-const sider = [["ingen", "Styremedlemmer.html", "generell_info.html"], ["barvakter.html"], ["ingen", "kommende_arrangementer.html", "tidligere_arrangementer.html"], ["ryktebørs.html","rykteinnsending.html"]]
+const sider = [["ingen", "Styremedlemmer.html", "generell_info.html"], ["barvakt.html"], ["ingen", "kommende_arrangementer.html", "tidligere_arrangementer.html"], ["Ryktebørs.html","rykteinnsending.html"]]
 
 //Hvert "meny item" som ikke er"top level" er klasse "subliste_item"
 const dropdown_klasse_navn = "drop_down";
