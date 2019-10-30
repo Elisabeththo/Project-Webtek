@@ -30,7 +30,7 @@ logo.src="./img/TohnnaNavbar.png";
 logo.alt = "Tøhnna";
 
 index_link.appendChild(logo);
-header.appendChild(document.createTextNode('top header')); //lagt til
+
 
 header.appendChild(index_link);
 
