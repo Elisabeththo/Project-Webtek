@@ -4,34 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Tidligere arrangementer</title>
     <link rel="stylesheet" type="text/css" href="P3.css">
 </head>
 <body>
+    <div id="hovedmeny"></div>
     <h1>Tidligere arrangementer</h1>
-    <section class="arr">
+    <section class="arr hovererbart" onclick="popup(this)">
         <img class="tidlbild"  src="./img/Tøhnna_quiz.jpeg" alt="TøhnnaQuiz">
         <p class="tidlfarge">29.August</p>
         <h2 class="tidlfarge1">Tøhnna quiz</h2>
-        <p class="tidlfarge3">Les mer...</p>
+        <p class="tidlfarge3" id="quiz">Les mer...</p>
+        <button class="knapp" onclick="reset(this)">X</button>
     </section>
-    <section class="arr">
+    <section class="arr hovererbart" onclick="popup(this)">
         <img class="tidlbild" src="./img/NU-kickoff.jpeg" alt="nu-kickoff">
         <p class="tidlfarge">6.September</p>
         <h2 class="tidlfarge1">NU-kickoff</h2>
-        <p class="tidlfarge3">Les mer...</p>
+        <p class="tidlfarge3" id="NU">Les mer...</p>
+        <button class="knapp" onclick="reset(this)">X</button>
     </section>
-    <section class="arr">
+    <section class="arr hovererbart" onclick="popup(this)">
         <img class="tidlbild"  src="./img/VK-kickoff.jpeg" alt="vk-kickoff">
         <p class="tidlfarge">14.September</p>
         <h2 class="tidlfarge1">VK-Kickoff</h2>
-        <p class="tidlfarge3">Les mer...</p>
+        <p class="tidlfarge3" id="VK">Les mer...</p>
+        <button class="knapp" onclick="reset(this)">X</button>
     </section>
-    <section class="arr">
+    <section class="arr hovererbart" onclick="popup(this)">
         <img class="tidlbild"  src="./img/Børsfest.jpeg" alt="børsfest">
         <p class="tidlfarge">4.Oktober</p>
         <h2 class="tidlfarge1">Børsfest</h2>
-        <p class="tidlfarge3">Les mer...</p>
+        <p class="tidlfarge3" id="børs">Les mer...</p>
+        <button class="knapp" onclick="reset(this)">X</button>
     </section>
+<script src="arrPopup.js"></script>
 </body>
 </html>
