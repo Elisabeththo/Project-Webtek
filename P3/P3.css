@@ -458,7 +458,7 @@ input[type=submit]{
     top: 0;
     left: 0;
     width: 100%;
-    background-color: red;
+    background-color: black;
     color: white;
     overflow: visible;
     z-index: 1;
@@ -468,7 +468,7 @@ input[type=submit]{
 
 /*link til logo*/
 #logo_link > img{ 
-    background-color: blue;
+    background-color: black;
     height: 90px;
     padding: 5px;
     margin: auto;
@@ -492,7 +492,7 @@ input[type=submit]{
 
 #meny ul, #meny li, #meny a{ /*Dette er størrelsen på underlistene*/
     height: 40px;
-    background-color: orange;
+    background-color: black;
     color: white;
     display: block;
     text-align: center;
@@ -502,7 +502,7 @@ input[type=submit]{
 }
 
 #meny a{ /*Dette er også knappene */
-    background-color: blueviolet;
+    background-color: black;
     padding-bottom: 10px;
     height: 30px;
     vertical-align: text-bottom;
@@ -518,14 +518,17 @@ input[type=submit]{
     overflow: visible;
     display: inline-block;
     height: 60px;
-    width: 600px;
+    width: 700px;
     margin-bottom: 2%;
 }
+
+
 
 #meny > li{
     float: left;
     height: 60px;
     width: 150px;
+    margin: 5px;
 }
 
 #meny > li > ul > li:first-child{
