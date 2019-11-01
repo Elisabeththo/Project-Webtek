@@ -58,35 +58,43 @@ h1{
 /*Tidligere og kommende arrangementer*/
 .arr{
     position: relative;
+    height: 40vh;
     border-style: solid;
     border-width: 2px;
-    padding: 5px;
-    margin: 5px;
-    margin-right: 100px;
-    margin-left: 100px;
+    padding: 0.5%;
+    margin: 0.5%;
+    margin-right: 8%;
+    margin-left: 8%;
     border-radius: 15px;
     background-color: #ec3a37;
     box-shadow: 10px 2px 8px gray;
 }
 
+.knapp{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    border-radius: 15px;
+}
 
 .tidlbild{
-    height: 6cm;
-    width: 10cm;
+    height: 18em;
+    width: 28em;
     border-radius: 15px;
     padding: 5px gray;
 }
 
-.arr:hover{
+.hovererbart:hover{
     opacity: 0.8;
-    margin-left: 50px; /*Bruker 50px for å definere avstanden ut til enden når man holder musa over */
-    margin-right: 50px;
+    margin-left: 3.125em; /*Bruker 50px for å definere avstanden ut til enden når man holder musa over */
+    margin-right: 3.125em;
     transition: 0.5s;
 }
 
 .tidlfarge{
     position: absolute;
-    top: 15px;
+    top: 1em;
     left: 60%;
     color: white;
     background-color: #ec3a37;
@@ -99,7 +107,7 @@ h1{
     left: 60%;
     color: white;
     background-color: #ec3a37;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .tidlfarge2{
@@ -121,6 +129,7 @@ h1{
     background-color: #ec3a37;
     font-size: 15px;
 }
+
 
 /*Barkart*/
 .karttekst{
@@ -364,6 +373,7 @@ input[type=submit]{
 
 .textarea{
     background-color: white;
+    width: 100%;
 }
 
 .rykteinns1{
@@ -387,12 +397,15 @@ input[type=submit]{
     box-shadow: 10px 2px 8px gray;
 }
 
-.generell:hover{
-    opacity: 0.8;
-    margin-left: 25px; /*Bruker 50px for å definere avstanden ut til enden når man holder musa over */
-    margin-right: 25px;
-    transition: 0.5s;
+@media only screen and (min-width:1350px){
+    .generell:hover{
+        opacity: 0.8;
+        margin-left: 25px; /*Bruker 50px for å definere avstanden ut til enden når man holder musa over */
+        margin-right: 25px;
+        transition: 0.5s;
+    }
 }
+
 
 .infobilder{
     background-color: #ec3a37;
@@ -414,4 +427,144 @@ input[type=submit]{
     background-color: #ec3a37;
     font-size: 18px;
     text-align: center;
+}
+
+
+
+@media only screen and (max-width: 1260px){
+
+    .tidlfarge{
+        display: block;
+    }
+
+    .arr, .innsending{
+        width: 90vw;
+    }
+
+    .tidlbild, .bildebartender, .bildedrink, .infobilder{
+        display: none;
+    }
+}
+
+
+#hovedmeny{ /*Rommet mellom navbar og innlegget */
+    height: 110px;
+    width: 100%;
+  }
+
+  #hovedmeny header{ /*Selve baren*/
+    height: 110px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    overflow: visible;
+    z-index: 1;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+/*link til logo*/
+#logo_link > img{ 
+    background-color: black;
+    height: 90px;
+    padding: 5px;
+    margin: auto;
+    width: 10%;
+}
+
+#meny a:hover{
+    background-color: darkgray;
+}
+
+#meny li:first-child > a{ /*Dette er stylingen av selve knappene*/
+    height: 50px;
+    line-height: 50px;
+    padding: 5px;
+    font-size: 15px;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 2px;
+    margin: 3px;
+}
+
+#meny ul, #meny li, #meny a{ /*Dette er størrelsen på underlistene*/
+    height: 40px;
+    background-color: black;
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 0;
+    margin: auto;
+}
+
+#meny a{ /*Dette er også knappene */
+    background-color: black;
+    padding-bottom: 10px;
+    height: 30px;
+    vertical-align: text-bottom;
+    transition: 0.2s;
+}
+
+#meny{ /*Dette er det som ligger bak knappene*/
+    top: 0%;
+    background-color: black;
+    padding: 0;
+    margin-left: 17.5%;
+    list-style-type: none;
+    overflow: visible;
+    display: inline-block;
+    height: 60px;
+    width: 700px;
+    margin-bottom: 2%;
+}
+
+
+
+#meny > li{
+    float: left;
+    height: 60px;
+    width: 150px;
+    margin: 5px;
+}
+
+#meny > li > ul > li:first-child{
+    height: 60px;
+
+}
+
+#meny .drop_down{
+    display: none;
+}
+
+@media only screen and (max-width: 1260px){
+    #meny-div{
+        height: 120px;
+    }
+
+    #meny-div header{
+        height: 120px;
+    }
+
+    #logo_link{
+        display: block;
+        float: none;
+        margin: auto;
+    }
+
+    #logo_link img{
+        display: block;
+        float: none;
+        margin: auto;
+    }
+
+    #meny{
+        display: block;
+        float: none;
+        margin: auto;
+    }
+
 }
