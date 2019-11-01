@@ -7,7 +7,22 @@
     border-width: 100%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0;
 }
+
+html{
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 30px;
+}
+
+body{
+    height: 100%;
+    padding: 0;
+    margin-bottom: 5px;
+    margin: 0 0 64px;
+}
+
 h1{
     font-size: 30px;
     text-align: center;
@@ -170,8 +185,6 @@ h1{
 }
 
 /*Ryktebørs*/
-
-
 
 .rykte_jostein{
     font-size: 25px;
@@ -405,8 +418,6 @@ input[type=submit]{
         transition: 0.5s;
     }
 }
-
-
 .infobilder{
     background-color: #ec3a37;
     height: 400px;
@@ -428,10 +439,6 @@ input[type=submit]{
     font-size: 18px;
     text-align: center;
 }
-<<<<<<< HEAD
-=======
-
-
 
 @media only screen and (max-width: 1260px){
 
@@ -542,6 +549,30 @@ input[type=submit]{
     display: none;
 }
 
+/*Footer*/
+.innhold{
+    height: auto;
+    display: block;
+    overflow: hidden;
+    margin: 10px;
+}
+
+#tohnnasfooter{
+    background-color: rgb(59, 58, 58);    
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    overflow: hidden;
+    padding: 0;
+    left: 0;
+    color:#ec3a37;
+    font-size: 12px;
+    line-height: 140%;
+}
+
+
+
 @media only screen and (max-width: 1260px){
     #meny-div{
         height: 120px;
@@ -570,4 +601,3 @@ input[type=submit]{
     }
 
 }
->>>>>>> 3d0834df2e7dbc1320123620e6e4e5cd4b5ea6be
