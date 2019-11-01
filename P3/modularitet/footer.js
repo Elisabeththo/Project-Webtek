@@ -10,3 +10,19 @@ var instagramLink = document.createElement('a');
 var facebookLink = document.createElement('a');
 
 //Ikonene
+instagramIcon.src = "./img/instagramIcon.png";
+facebookIcon.src = "./img/facebookIcon.png";
+
+//Legger til link, åpner ny fane
+instagramLink.href = "http://instagram.com/tohnnastoh/";
+instagramLink.target = "_blank";
+facebookLink.href = "http://facebook.com/tohnna/";
+facebookLink.target = "_blank";
+
+//Putter ikonene til linkene
+instagramLink.appendChild(instagramIcon);
+facebookLink.appendChild(facebookIcon);
+
+//Legger til både ikonene og linkene til selve footeren
+footer.appendChild(instagramLink);
+footer.appendChild(facebookLink);

@@ -571,6 +571,19 @@ input[type=submit]{
     line-height: 140%;
 }
 
+#tohnnasfooter *{
+    height: 50px;
+    width: 50px;
+}
+
+#tohnnasfooter a{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    float: right;
+}
+
 
 
 @media only screen and (max-width: 1260px){
