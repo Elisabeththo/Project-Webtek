@@ -1,6 +1,5 @@
 /*Generell*/
 *{
-    
     font-family: Helvetica, Arial, sans-serif;
     font-size: 15px;
     color: black;
@@ -560,28 +559,36 @@ input[type=submit]{
 
 #tohnnasfooter{
     background-color: rgb(59, 58, 58);    
-    position: absolute;
     height: 50px;
+    position: absolute;
     bottom: 0;
-    overflow: hidden;
-    padding: 0;
     left: 0;
-    color:#ec3a37;
-    font-size: 12px;
-    line-height: 140%;
+    padding: 0;
+    overflow: hidden;
     width: 100%;
 }
 
 #tohnnasfooter *{
     height: 50px;
-    width: 50px;
 }
+
 
 #tohnnasfooter a{
     display: block;
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    float: right;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.footertekst{
+    font-size: 12px;
+    color:lightgray;
+    display: block;
+    float: left;
+    width: 500px;
+    line-height: 140%;
+    margin-left: 10px;
+    margin-top: 2px;
 }
 
 @media only screen and (max-width: 1260px){
