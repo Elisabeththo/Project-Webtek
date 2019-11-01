@@ -4,9 +4,9 @@
 
 //List over hva som skal være på menyen. De som listene som har flere elementer beskriver et valg med undervalg. det hovedmeny[i][0] er "øverste nivå"
 //og meny[i][1] til meny[i][j] er dropdown menyer som kan vises under øverste nivå. 
-const meny = [["Om tøhnna", "Om styret", "Generell info"], ["Barvakter"], ["Arrangementer","Kommende arrangementer","Tidligere arrangementer"], ["Ryktebørsen","Rykteinnsending"]];
+const meny = [["Om tøhnna", "Om styret", "Generell info"], ["Barvakter"], ["Arrangementer","Kommende arrangementer","Tidligere arrangementer"], ["Rykter", "Ryktebørsen","Rykteinnsending"]];
 //Liste over hva de forskjellige "meny-items" skal linke til. meny[i][j] koresponderer til sider[i][j]. ingen betyr at det ikke skal være en link
-const sider = [["ingen", "Styremedlemmer.html", "generell_info.html"], ["barvakter.html"], ["ingen", "kommende_arrangementer.html", "tidligere_arrangementer.html"], ["ryktebørs.html","rykteinnsending.html"]]
+const sider = [["ingen", "Styremedlemmer.html", "generell_info.html"], ["barvakt.html"], ["ingen", "kommende_arrangementer.html", "tidligere_arrangementer.html"], ["ingen", "ryktebors.html","rykteinnsending.html"]]
 
 //Hvert "meny item" som ikke er"top level" er klasse "subliste_item"
 const dropdown_klasse_navn = "drop_down";
@@ -30,7 +30,7 @@ logo.src="./img/TohnnaNavbar.png";
 logo.alt = "Tøhnna";
 
 index_link.appendChild(logo);
-header.appendChild(document.createTextNode('top header')); //lagt til
+
 
 header.appendChild(index_link);
 
