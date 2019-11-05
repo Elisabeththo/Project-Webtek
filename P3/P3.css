@@ -19,8 +19,15 @@ html{
 body{
     height: 100%;
     padding: 0;
-    margin-bottom: 5px;
     margin: 0 0 ;
+    margin-bottom: 50px;
+}
+
+#forside{
+    height: 100%;
+    padding: 0;
+    margin: 0 0;
+    margin-bottom: 0px
 }
 
 h1{
@@ -555,7 +562,6 @@ input[type=submit]{
     height: auto;
     display: block;
     overflow: hidden;
-    margin: 10px;
 }
 
 #tohnnasfooter{
