@@ -63,7 +63,7 @@ h1{
 
 
 /*Skjemabekreftelse*/
-.innslag{
+#innslag{
     text-align: center;
     font-weight: bold;
     position: absolute;
@@ -74,6 +74,11 @@ h1{
 
 .tilbakeinfo{
     font-weight: normal;
+    font-size: 20px;
+}
+
+.mottatt{
+    font-size: 25px;
 }
 
 /*Tidligere og kommende arrangementer*/

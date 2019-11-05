@@ -19,7 +19,7 @@
     </div>
     <section>
     <div id="skjema">
-        <form class="vaktfarge" action="skjemabekreftelse.html">
+        <form class="vaktfarge" action="skjemabekreftelse.html" >
             <h2 class="vaktfarge">PÅMELDINGSSKJEMA</h2>
             Navn <br>
             <input type="text" name="navn" required><br>
@@ -30,6 +30,7 @@
             <input type="radio" name="vakt" required>Edruvakt<br>
             Arrangement <br>
             <select name="Arrangementer" class="arrangementer" required>
+                <option disabled selected value> - Velg arrangement -</option>
                 <option value="julebord">HSK julebord</option>
                 <option value="kick-off">NU kick-off</option>
                 <option value="cavas">Cavasøndag</option>
