@@ -367,17 +367,8 @@ input[type=submit]{
     padding: 5px;
     overflow: auto;
     float: left;
-    margin: 5px;
-    box-shadow: 10px 2px 8px gray;
-}
-
-@media only screen and (min-width:1350px){
-    .generell:hover{
-        opacity: 0.8;
-        margin-left: 25px; /*Bruker 50px for å definere avstanden ut til enden når man holder musa over */
-        margin-right: 25px;
-        transition: 0.5s;
-    }
+    margin: 12px;
+    
 }
 .infobilder{
     background-color: #ec3a37;
@@ -401,7 +392,7 @@ input[type=submit]{
     text-align: center;
 }
 
-@media only screen and (max-width: 1260px){
+@media only screen and (max-width: 1360px){
 
     .tidlfarge{
         display: block;
@@ -411,9 +402,28 @@ input[type=submit]{
         width: 90vw;
     }
 
-    .tidlbild, .bildebartender, .bildedrink, .infobilder{
+    .tidlbild, .bildebartender, .bildedrink,{
         display: none;
     }
+
+    .infobilder{
+        width: 300px;
+        height: 300px;
+        margin-right: auto;
+    }
+
+    .generell{
+        float: none;
+        margin: auto;
+        margin-bottom: 25px;
+        width: 60vw;
+    }   
+}     
+
+@media only screen and (max-width: 550px){    
+    .infobilder{
+        display: none;
+    }    
 }
 
 /* Nav bar */
