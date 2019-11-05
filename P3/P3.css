@@ -251,6 +251,15 @@ h1{
     font-size: 13px;
 }
 
+@media only screen and (max-width: 1260px){
+    .rykte_henrik, .rykte_jostein, .rykte_leder, .rykte_didrik, .rykte_elisabeth, .rykte_nils, .rykte_stina{
+        float: left;
+        width: 100%;
+        left: 5%;
+        position: relative;
+    }
+}
+
 /* Barvakt */
 
 #skjema{
@@ -583,5 +592,4 @@ input[type=submit]{
         float: none;
         margin: auto;
     }
-
 }
