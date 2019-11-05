@@ -195,28 +195,15 @@ h1{
     position: absolute;
     left: 10%;
     top:20%;
-    transform: translate(-10%,10%);
-    transform: rotate(45deg);
     text-shadow: 5px 2px 8px gray;
 }
-
-.rykte_jostein:hover{
-    transform: scale(1.5);
-}
-
 
 .rykte_henrik{
     font-size: 25px;
     position: absolute;
-    left: 50%;
-    top:60%;
-    transform: translate(-50%,40%);
-    transform: rotate(320deg);
+    left: 10%;
+    top:50%;
     text-shadow: 5px 2px 8px gray;
-}
-
-.rykte_henrik:hover{
-    transform: scale(1.5);
 }
 
 .rykte_didrik{
@@ -224,69 +211,39 @@ h1{
     position: absolute;
     left:80%;
     top:20%;
-    transform: translate(-80%,10%);
-    transform: rotate(330deg);
     text-shadow: 5px 2px 8px gray;
-}
-
-.rykte_didrik:hover{
-    transform: scale(1.5);
 }
 
 .rykte_stina{
     font-size: 25px;
     position: absolute;
-    right:60%;
-    bottom:10%;
-    transform: translate(-60%,10%);
-    transform: rotate(25deg);
+    right:40%;
+    top:50%;
     text-shadow: 5px 2px 8px gray;
-}
-
-.rykte_stina:hover{
-    transform: scale(1.5);
 }
 
 .rykte_elisabeth{
     font-size: 25px;
     position: absolute;
-    left:50%;
-    top: 20%;
-    transform: translate(-85%,65%);
-    transform: rotate(345deg);
+    left:80%;
+    top: 50%;
     text-shadow: 5px 2px 8px gray;
-}
-
-.rykte_elisabeth:hover{
-    transform: scale(1.5);
 }
 
 .rykte_nils{
     font-size: 25px;
     position: absolute;
-    left:70%;
+    left:80%;
     bottom:10%;
-    transform: translate(-80%,10%);
-    transform: rotate(20deg);
     text-shadow: 5px 2px 8px gray;
-}
-
-.rykte_nils:hover{
-    transform: scale(1.5);
 }
 
 .rykte_leder{
     font-size: 25px;
     position: absolute;
     left: 10%;
-    bottom:35%;
-    transform: translate(-10%,30%);
-    transform: rotate(350deg);
+    top:80%;
     text-shadow: 5px 2px 8px gray;
-}
-
-.rykte_leder:hover{
-    transform: scale(1.5);
 }
 
 .rykte_innsender{
