@@ -78,10 +78,6 @@ h1{
 }
 
 /*Tidligere og kommende arrangementer*/
-#arrang{
-    margin-bottom: 20 px;
-}
-
 .arr{
     position: relative;
     height: 40vh;
@@ -156,18 +152,25 @@ h1{
     font-size: 15px;
 }
 
+@media only screen and (max-width: 860px){
+    .tidlbild{
+        display: none;
+    }
+
+    .arr{
+        width: 90vw;
+        height: 200px;
+        margin-bottom: 2px;
+    }
+
+}
 
 /*Barkart*/
 .karttekst{
     text-align: center;
-    justify-content: center;
-    align-items: center;
 }
-
-
-.karttekst li{
-    font-weight: bold;
-    list-style-type: none;
+.karttekst p{
+    font-weight: normal;
     text-align: center;
 }
 
@@ -194,6 +197,35 @@ h1{
     border-radius: 15px;
     box-shadow: 10px 2px 8px gray;
 }
+
+@media only screen and (max-width: 860px){
+    .bildebartender, .bildedrink{
+        display: none;
+    }
+
+}
+@media only screen and (max-width: 1260px){
+    .bildedrink{
+        height: 200px;
+        width: 250px;
+        right: 1%;
+        top: 40%;
+        position: fixed;
+        border-radius: 15px;
+        box-shadow: 10px 2px 8px gray;
+    }
+
+    .bildebartender{
+        height: 200px;
+        width: 250px;
+        left: 1%;
+        top: 40%;
+        position: fixed;
+        border-radius: 15px;
+        box-shadow: 10px 2px 8px gray;
+    }
+}
+
 
 /*Ryktebørs*/
 
@@ -424,18 +456,10 @@ input[type=submit]{
     text-align: center;
 }
 
+
 @media only screen and (max-width: 1360px){
-
-    .tidlfarge{
-        display: block;
-    }
-
-    .arr, .innsending{
+    .innsending{
         width: 90vw;
-    }
-
-    .tidlbild, .bildebartender, .bildedrink,{
-        display: none;
     }
 
     .infobilder{

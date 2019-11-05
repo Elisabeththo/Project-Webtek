@@ -8,17 +8,18 @@ let klar = true;
 
 
 function popup(arr) {
-    if (klar) {
+    if (klar){
         tilbakeKnapp = arr.getElementsByTagName("button")[0];
         tilbakeKnapp.style.display = "block";
         //gjør aktuelle popupArtikkel til stor popup med style.
 
-        arr.setAttribute("style", "width:90vw;" + "height:65vh;" + "z-index=1;"
-            + "position:fixed;" + "left: 0;" + "top:5vw;" + "border:solid 2px;" + "z-index:1;");
+        arr.setAttribute("style", "width:90vw;" + "height:70vh;" + "z-index=1;"
+            + "position:fixed;" + "left: -60px;" + "top:11vw;" + "border:solid 2px;" + "z-index:1;");
 
         //bilde tilhørende aktuell div blir større
-        arr.getElementsByClassName("tidlbild")[0].setAttribute("style", "width:15cm;" + "height:10cm;");
+        arr.getElementsByClassName("tidlbild")[0].setAttribute("style", "width:17cm;" + "height:10cm;" + "margin-top:5px;");
         
+
         quiz.innerHTML = "Quizen ble som vanlig vellykket. Gutta vant og jentene tapte. Dharan cheata som vanlig, ting var på stell skrrr. Nå er det eksamensperiode og barten skal gro.  "
         NU.innerHTML = "NU aka handelshøyskolens elite brrraa tok av som vanlig. Jentene kledde seg og guttene så på. Det endte med at Elisabeth vant konkurransen om å kle av seg mest. Bedre blir det ikke."
         VK.innerHTML = "VK aka handelshøyskolens tøhnna-do skuffet som vanlig. Ingen gjorde noe og alle så i veggen. Neste år er utvalget over fordi alle melder seg ut."
