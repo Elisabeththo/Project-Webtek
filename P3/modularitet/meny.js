@@ -4,7 +4,7 @@
 
 //List over hva som skal være på menyen. De som listene som har flere elementer beskriver et valg med undervalg. Hovedmeny[i][0] er "øverste nivå"
 //og meny[i][1] til meny[i][j] er dropdown menyer som kan vises under øverste nivå. 
-const meny = [["Om tøhnna", "Om styret", "Generell info","Barkart"], ["Barvakter"], ["Arrangementer","Kommende arrangementer","Tidligere arrangementer"], ["Rykter", "Ryktebørsen","Rykteinnsending"]];
+const meny = [["Om tøhnna", "Styremedlemmer", "Generell info","Barkart"], ["Barvakter"], ["Arrangementer","Kommende arrangementer","Tidligere arrangementer"], ["Rykter", "Ryktebørsen","Rykteinnsending"]];
 //Liste over hva de forskjellige "meny-items" skal linke til. meny[i][j] koresponderer til sider[i][j]. ingen betyr at det ikke skal være en link
 const sider = [["ingen", "Styremedlemmer.html", "generell_info.html","barkart.html"], ["barvakt.html"], ["ingen", "kommende_arrangementer.html", "tidligere_arrangementer.html"], ["ingen", "ryktebors.html","rykteinnsending.html"]]
 
