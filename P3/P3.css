@@ -494,9 +494,7 @@ input[type=submit]{
 /*link til logo*/
 #logo_link > img{ 
     background-color: transparent;
-    height: 100px;
-    padding: 5px;
-    margin: auto;
+    height: 140px;
     width: auto;
 }
 
