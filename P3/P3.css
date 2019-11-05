@@ -27,7 +27,7 @@ body{
     height: 100%;
     padding: 0;
     margin: 0 0;
-    margin-bottom: 0px
+    margin-bottom: 0px;
 }
 
 h1{
@@ -557,13 +557,6 @@ input[type=submit]{
 }
 
 /*Footer*/
-
-.slideshow{
-    height: 100%;
-    padding: 0;
-    margin: 0 0 ;
-    margin-bottom: 0px;
-}
 
 .innhold{
     height: auto;
