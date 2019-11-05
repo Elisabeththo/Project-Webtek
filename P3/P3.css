@@ -12,22 +12,19 @@
 html{
     position: relative;
     min-height: 100%;
-    padding-bottom: 30px;
     background-color: lightgrey;
 }
 
 body{
     height: 100%;
-    padding: 0;
     margin: 0 0 ;
-    margin-bottom: 50px;
+    padding-bottom: 60px;
 }
 
 #forside{ /*Body til forside.html*/
     height: 100%;
-    padding: 0;
     margin: 0 0;
-    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 h1{
@@ -314,6 +311,7 @@ h1{
     position: relative;
     background-color: #ec3a37;
     box-shadow: 10px 2px 8px gray;
+    margin-top: 90px;
 }
 input[type=text], [type=email]{
     width: 100%;
@@ -378,8 +376,18 @@ input[type=submit]{
 }
 
 .vaktfarge{
-    background-color: #ec3a37;
     color: white;
+}
+
+#fordeler_liste{
+ 
+}
+
+#h2fordeler{
+    color: white;
+    margin-top: 0;
+    margin-left: 20px;
+    font-size: 20px;
 }
 
 @media only screen and (max-width: 1260px){
