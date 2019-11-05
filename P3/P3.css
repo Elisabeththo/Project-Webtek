@@ -71,6 +71,10 @@ h1{
 }
 
 /*Tidligere og kommende arrangementer*/
+#arrang{
+    margin-bottom: 20 px;
+}
+
 .arr{
     position: relative;
     height: 40vh;
@@ -455,53 +459,60 @@ input[type=submit]{
     }
 }
 
+/* Nav bar */
 
 #hovedmeny{ /*Rommet mellom navbar og innlegget */
     height: 110px;
     width: 100%;
   }
 
-  #hovedmeny header{ /*Selve baren*/
+#hovedmeny header{ /*Selve baren*/
     height: 110px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: black;
+    background-color: rgb(59, 58, 58);
     color: white;
     overflow: visible;
     z-index: 1;
-    font-size: 1.5em;
+    font-size: 15px;
     font-weight: 900;
+}
+
+#logo_link{
+    text-align: left;
+    display: inline-block;
+    position: absolute;
+    height: 110px;
+    width: 10em;
+    padding: 0;
+    margin: 0 auto;
+    background-color: transparent;
 }
 
 /*link til logo*/
 #logo_link > img{ 
-    background-color: black;
-    height: 90px;
+    background-color: transparent;
+    height: 100px;
     padding: 5px;
     margin: auto;
-    width: 10%;
+    width: auto;
 }
 
 #meny a:hover{
-    background-color: darkgray;
+    color: rgb(59, 58, 58);
 }
 
 #meny li:first-child > a{ /*Dette er stylingen av selve knappene*/
-    height: 50px;
-    line-height: 50px;
-    padding: 5px;
-    font-size: 15px;
-    border-style: solid;
-    border-color: lightgray;
-    border-width: 2px;
-    margin: 3px;
+    height: 60px;
+    line-height: 60px;
+    padding: 0;
 }
 
 #meny ul, #meny li, #meny a{ /*Dette er størrelsen på underlistene*/
     height: 40px;
-    background-color: black;
+    background-color: transparent;
     color: white;
     display: block;
     text-align: center;
@@ -511,7 +522,7 @@ input[type=submit]{
 }
 
 #meny a{ /*Dette er også knappene */
-    background-color: black;
+    background-color: #ec3a37;
     padding-bottom: 10px;
     height: 30px;
     vertical-align: text-bottom;
@@ -520,9 +531,9 @@ input[type=submit]{
 
 #meny{ /*Dette er det som ligger bak knappene*/
     top: 0%;
-    background-color: black;
+    background-color: rgb(59, 58, 58);
     padding: 0;
-    margin-left: 17.5%;
+    margin-left: 27%;
     list-style-type: none;
     overflow: visible;
     display: inline-block;
@@ -530,8 +541,6 @@ input[type=submit]{
     width: 700px;
     margin-bottom: 2%;
 }
-
-
 
 #meny > li{
     float: left;
@@ -592,18 +601,19 @@ input[type=submit]{
 }
 
 @media only screen and (max-width: 1260px){
-    #meny-div{
-        height: 120px;
+    #hovedmeny{
+        height: 220px;
     }
 
-    #meny-div header{
-        height: 120px;
+    #hovedmeny header{
+        height: 220px;
     }
 
     #logo_link{
         display: block;
         float: none;
         margin: auto;
+        position: relative;
     }
 
     #logo_link img{
