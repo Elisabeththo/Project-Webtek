@@ -341,6 +341,22 @@ input[type=submit]{
     color: white;
 }
 
+@media only screen and (max-width: 1260px){
+    #fordeler{
+        display: none;
+    }
+
+    #tøhnnakort{
+        display: none;
+    }
+
+    #skjema{
+        float: left;
+        width: 80%;
+        position: relative;
+    }
+}
+
 /*Rykteinnsending*/
 .innsending{
     font-size: 25px;
