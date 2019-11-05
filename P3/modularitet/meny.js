@@ -31,10 +31,7 @@ logo.alt = "Tøhnna";
 
 index_link.appendChild(logo);
 
-
 header.appendChild(index_link);
-
-
 
 
 //Settes som onHover på "top level" med underelementer
