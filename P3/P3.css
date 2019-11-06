@@ -443,6 +443,7 @@ input[type=submit]{
     overflow: auto;
     float: left;
     margin: 12px;
+    box-shadow: 10px 2px 8px gray;
     
 }
 .infobilder{
