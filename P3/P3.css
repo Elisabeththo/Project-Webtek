@@ -12,19 +12,22 @@
 html{
     position: relative;
     min-height: 100%;
+    padding-bottom: 30px;
     background-color: lightgrey;
 }
 
 body{
     height: 100%;
+    padding: 0;
     margin: 0 0 ;
-    padding-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 #forside{ /*Body til forside.html*/
     height: 100%;
+    padding: 0;
     margin: 0 0;
-    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 h1{
@@ -36,34 +39,43 @@ h1{
 .styremedlemmer{
     display: flex;
     justify-content: space-between;
-    float: left;
+    float: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
 }
+.styret{
+    margin: 20px;
+    align-content: center;
+}
+
 .row1{
     content: "";
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     clear: both;
-}
-.row2{
-    content: "";
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    clear: both;
-}
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+}    
+    
+
 .styrebilder{
     width: 265px;
     height: 340px;
     padding: 5px;
     border-radius: 15px;
     box-shadow: 10px 2px 8px gray;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
 
 /*Skjemabekreftelse*/
-#innslag{
+.innslag{
     text-align: center;
     font-weight: bold;
     position: absolute;
@@ -74,11 +86,6 @@ h1{
 
 .tilbakeinfo{
     font-weight: normal;
-    font-size: 20px;
-}
-
-.mottatt{
-    font-size: 25px;
 }
 
 /*Tidligere og kommende arrangementer*/
