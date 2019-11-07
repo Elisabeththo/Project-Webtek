@@ -98,11 +98,9 @@ h1{
 
 
 /*Tidligere og kommende arrangementer*/
-.extra { 
-    display: none;
-}
 
-.arr:hover .extra {
+
+.extra{
     display: inline-block;
     color: white;
 }
@@ -201,6 +199,17 @@ h1{
         padding-top: 1%;
     }
 }
+
+@media only screen and (min-width:1260px){
+    .extra { 
+        display: none;
+    }
+    
+    .arr:hover .extra {
+        display: inline-block;
+        color: white;
+    }
+    }
 
 
 /*Barkart*/
