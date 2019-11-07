@@ -115,8 +115,7 @@ h1{
     width: 25em;
     border-radius: 15px;
     padding: 5px gray;
-    margin-top: 2%;
-    margin-left: 1%;
+    margin: auto;
 }
 
 .hovererbart:hover{
@@ -157,11 +156,11 @@ h1{
 
 .tidlfarge3{
     position: absolute;
-    top: 125px;
+    top: 40%;
     left: 60%;
     color: white;
     background-color: #ec3a37;
-    font-size: 15px;
+    font-size: 1em;
     margin-right: 15px;
 }
 
@@ -175,8 +174,16 @@ h1{
         height: 200px;
         margin-bottom: 2px;
     }
-
+    .tidlfarge, .tidlfarge1, .tidlfarge2{
+        left: 10%;
+    }
+    .tidlfarge3{
+        font-size: 0.9em;
+        left: 10%;
+        padding-top: 1%;
+    }
 }
+
 
 /*Barkart*/
 .karttekst{
