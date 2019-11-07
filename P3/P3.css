@@ -12,7 +12,6 @@
 html{
     position: relative;
     min-height: 100%;
-    padding-bottom: 30px;
     background-color: lightgrey;
 }
 
@@ -20,14 +19,13 @@ body{
     height: 100%;
     padding: 0;
     margin: 0 0 ;
-    margin-bottom: 50px;
+    padding-bottom: 80px;
 }
 
 #forside{ /*Body til forside.html*/
     height: 100%;
-    padding: 0;
     margin: 0 0;
-    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 h1{
@@ -45,10 +43,6 @@ h1{
     margin-left: auto;
     margin-right: auto;
 }
-.styret{
-    margin: 20px;
-    align-content: center;
-}
 
 .row1{
     content: "";
@@ -65,7 +59,7 @@ h1{
 .styrebilder{
     width: 265px;
     height: 340px;
-    padding: 5px;
+    margin-top: 10px;
     border-radius: 15px;
     box-shadow: 10px 2px 8px gray;
     margin-left: auto;
@@ -75,7 +69,7 @@ h1{
 
 
 /*Skjemabekreftelse*/
-.innslag{
+#innslag{
     text-align: center;
     font-weight: bold;
     position: absolute;
@@ -86,6 +80,11 @@ h1{
 
 .tilbakeinfo{
     font-weight: normal;
+    font-size: 20px;
+}
+
+.mottatt{
+    font-size: 25px;
 }
 
 /*Tidligere og kommende arrangementer*/
@@ -113,9 +112,11 @@ h1{
 
 .tidlbild{
     height: 18em;
-    width: 28em;
+    width: 25em;
     border-radius: 15px;
     padding: 5px gray;
+    margin-top: 2%;
+    margin-left: 1%;
 }
 
 .hovererbart:hover{
@@ -161,6 +162,7 @@ h1{
     color: white;
     background-color: #ec3a37;
     font-size: 15px;
+    margin-right: 15px;
 }
 
 @media only screen and (max-width: 860px){
@@ -398,12 +400,8 @@ input[type=submit]{
     font-size: 20px;
 }
 
-@media only screen and (max-width: 1260px){
+@media only screen and (max-width: 860px){
     #fordeler{
-        display: none;
-    }
-
-    #tøhnnakort{
         display: none;
     }
 
@@ -411,6 +409,12 @@ input[type=submit]{
         float: left;
         width: 80%;
         position: relative;
+    }
+}
+
+@media only screen and (max-width: 1260px){
+    #tøhnnakort{
+        display: none;
     }
 }
 
@@ -512,7 +516,6 @@ input[type=submit]{
     color: white;
     overflow: visible;
     z-index: 1;
-    font-size: 15px;
     font-weight: 900;
 }
 
@@ -573,7 +576,7 @@ input[type=submit]{
     overflow: visible;
     display: inline-block;
     height: 60px;
-    width: 700px;
+    width: auto;
     margin-bottom: 2%;
 }
 
@@ -593,6 +596,46 @@ input[type=submit]{
     display: none;
 }
 
+
+@media only screen and (max-width: 1260px){
+    #hovedmeny{
+        height: 220px;
+    }
+
+    #hovedmeny header{
+        height: 220px;
+    }
+
+    #logo_link{
+        display: block;
+        float: none;
+        margin: auto;
+        position: relative;
+    }
+
+    #logo_link img{
+        float: none;
+        margin-top: auto;
+    }
+
+    #meny{
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: row;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #meny ul, #meny li, #meny a{
+        margin: auto;
+        font-size: 0.9em;
+    }
+
+    #meny ul{
+        padding: 2px;
+    }
+}
+
 /*Footer*/
 
 .innhold{
@@ -603,17 +646,19 @@ input[type=submit]{
 
 #tohnnasfooter{
     background-color: rgb(59, 58, 58);    
-    height: 50px;
+    height: 55px;
     position: absolute;
     bottom: 0;
     left: 0;
-    padding: 0;
+    padding: 0px;
+    padding-top: 3px;
     overflow: hidden;
     width: 100%;
 }
 
 #tohnnasfooter *{
-    height: 50px;
+    height: 40px;
+    padding-top: 2px;
 }
 
 
@@ -633,35 +678,6 @@ input[type=submit]{
     line-height: 140%;
     margin-left: 10px;
     margin-top: 2px;
-}
-
-@media only screen and (max-width: 1260px){
-    #hovedmeny{
-        height: 220px;
-    }
-
-    #hovedmeny header{
-        height: 220px;
-    }
-
-    #logo_link{
-        display: block;
-        float: none;
-        margin: auto;
-        position: relative;
-    }
-
-    #logo_link img{
-        display: block;
-        float: none;
-        margin: auto;
-    }
-
-    #meny{
-        display: block;
-        float: none;
-        margin: auto;
-    }
 }
 
 /* Forside*/
