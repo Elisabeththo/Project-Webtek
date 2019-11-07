@@ -56,7 +56,7 @@ h1{
 }    
     
 
-.styrebilder{
+.styret img{
     width: 265px;
     height: 340px;
     margin-top: 10px;
@@ -87,13 +87,31 @@ h1{
     font-size: 25px;
 }
 
+@media only screen and (max-width: 1100px){
+    .mottatt{
+        font-size: 15px;
+    }
+    .tilbakeinfo{
+        font-size: 10px;
+    }
+}
+
+
 /*Tidligere og kommende arrangementer*/
+.extra { 
+    display: none;
+}
+
+.arr:hover .extra {
+    display: inline-block;
+    color: white;
+}
+
 .arr{
     position: relative;
     height: 40vh;
     border-style: solid;
     border-width: 2px;
-    padding: 0.5%;
     margin: 0.5%;
     margin-right: 8%;
     margin-left: 8%;
@@ -102,27 +120,13 @@ h1{
     box-shadow: 10px 2px 8px gray;
 }
 
-.knapp{
-    position: absolute;
-    top: 0;
-    right: 0;
-    display: none;
-    border-radius: 15px;
-}
 
-.tidlbild{
-    height: 18em;
-    width: 25em;
-    border-radius: 15px;
-    padding: 5px gray;
-    margin: auto;
-}
-
-.hovererbart:hover{
-    opacity: 0.8;
-    margin-left: 3.125em;
-    margin-right: 3.125em;
-    transition: 0.5s;
+.arr img{
+    height: 40vh;
+    width: 30vw;
+    float: left;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
 }
 
 .tidlfarge{
@@ -143,29 +147,43 @@ h1{
     font-size: 25px;
 }
 
-.tidlfarge2{
+.knapp{
     position: absolute;
     top: 125px;
     left: 60%;
-    background-color:lightgray;
-    font-size: 20px;
-    padding: 5px;
+    font-size: 15px;
     margin: 4px 2px;
-    box-shadow: 1px 2px 8px darkgray;
+    border: black solid;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.knapp:hover{
+    letter-spacing: 1px;
+    transition: 0.2s;
+    left: 59%;
+    background-color: lightgray;
+    
+}
+
+.hovererbart:hover{
+    margin-left: 3.125em;
+    margin-right: 3.125em;
+    transition: 0.5s;
 }
 
 .tidlfarge3{
     position: absolute;
     top: 40%;
-    left: 60%;
+    left: 40%;
     color: white;
     background-color: #ec3a37;
     font-size: 1em;
     margin-right: 15px;
 }
 
-@media only screen and (max-width: 860px){
-    .tidlbild{
+@media only screen and (max-width: 1100px){
+    .arr img{
         display: none;
     }
 
@@ -177,7 +195,7 @@ h1{
     .tidlfarge, .tidlfarge1, .tidlfarge2{
         left: 10%;
     }
-    .tidlfarge3{
+    .tidlfarge3,.knapp{
         font-size: 0.9em;
         left: 10%;
         padding-top: 1%;
@@ -596,7 +614,6 @@ input[type=submit]{
 
 #meny > li > ul > li:first-child{
     height: 60px;
-
 }
 
 #meny .drop_down{
@@ -685,6 +702,12 @@ input[type=submit]{
     line-height: 140%;
     margin-left: 10px;
     margin-top: 2px;
+}
+
+@media only screen and (max-width: 650px){
+    #thonnasfooter a, #tohnnasfooter img{
+        display: none;
+    }
 }
 
 /* Forside*/
