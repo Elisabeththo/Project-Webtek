@@ -33,6 +33,28 @@ h1{
     text-align: center;
 }
 
+#dokument{
+    margin: auto;
+    text-align: left;
+    width: 80%;
+    background-color: #ec3a37;
+    line-height: 150%;
+    padding: 1px;
+    margin-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+}
+
+#dokument h2{
+    text-align: center;
+}
+
+.spørsmål{
+    font-style: italic;
+}
+
 /*Styremedlemmer*/
 .styremedlemmer{
     display: flex;
