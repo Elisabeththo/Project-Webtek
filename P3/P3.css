@@ -181,6 +181,8 @@ h1{
         width: 90vw;
         height: 200px;
         margin-bottom: 2px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .tidlfarge, .tidlfarge1, .tidlfarge2{
         left: 10%;
