@@ -504,9 +504,8 @@ input[type=submit]{
     border: 2px solid black;
     border-radius: 4px;
 }
-.ryktknapp{
-    background-color: #ec3a37;
-}
+
+
 @media only screen and (max-width: 860px){
      .innsending{
         width: 80%;
